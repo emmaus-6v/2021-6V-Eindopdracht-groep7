@@ -18,7 +18,7 @@ void loop() {
 
   // is de verstreken tijd sinds de laatste verandering langer dan de interval?
   if (millisNu - millisVorigeVerandering >= interval) {    
-    // bewaar tijdstip van de verandering die we hierna gaan doen
+    // bewaar tijdstip van de verandering die we hierna gaan doen...
     millisVorigeVerandering = millisNu;
 
     // zet de status van de LED om
