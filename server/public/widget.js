@@ -115,8 +115,8 @@ function setup() {
   // zet timeStamp op lang geleden zodat we alle recente info binnenkrijgen
   laatsteUpdateTimeStamp = new Date().setTime(0);
 
-  // we vragen elke seconde of er iets is veranderd
-  setInterval(checkForDatabaseChanges, 1000);
+  // we vragen elke seconde (aan de server!) of er iets is veranderd 
+  setInterval(checkForDatabaseChanges, 1500);
 }
 
 
