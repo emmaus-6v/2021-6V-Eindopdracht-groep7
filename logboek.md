@@ -11,19 +11,19 @@ Uitgevoerd: gebrainstormed over de knikkerbaan en ideeën uitgewerkt.
 
 Datum: 10-02-2021
 Leerling: Koen en Stan
-Uitgevoerd: Rails voor baan ontvangen en metalen houdertjes voor rails gemaakt
+Uitgevoerd: Rails voor baan ontvangen en metalen houdertjes voor rails gemaakt.
 
 ---
 
 Datum: 17-02-2021
 Leerling: Sem, Bryan en Moos
-Uitgevoerd: Knikkerbaan gemaakt
+Uitgevoerd: Knikkerbaan gemaakt.
 
 ---
 
 Datum: 18-02-2021
 Leerling: Wessel en Stan
-Uitgevoerd: Gekeken naar hoe de knikkerbaan ervoor stond
+Uitgevoerd: Gekeken naar hoe de knikkerbaan ervoor stond.
 
 ---
 
