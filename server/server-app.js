@@ -25,6 +25,7 @@ app.get('/api/checkchanges/:widgetTimeStamp', checkChanges);
 app.get('/api/addButtonPress', addButtonPress);
 app.get('/api/getTotalPresses', getTotalPresses);
 app.get('/api/setKnikkerbaanStatus/:newStatus', setKnikkerbaanStatus);
+app.get('/api/irSensorStatus/newSensorStatus', irSensorStatus);
 
 
 // start de server en geef een berichtje in de console dat het gelukt is!
@@ -50,7 +51,7 @@ let connectionString = {
   ssl: false
 };
 
-if(process.env.GITPOD_WORKSPACE_ID === undefined) {
+if (process.env.GITPOD_WORKSPACE_ID === undefined) {
   connectionString = {
     connectionString: process.env.DATABASE_URL,
     ssl: {
@@ -147,5 +148,17 @@ function setKnikkerbaanStatus(_request, response) {
       throw error;
     }
     response.status(201).send("Status has been modified");
+  });
+}
+
+function irSensorStatus(_request, response) {
+  const newSensorStatus = parseInt(_request.params.newSensorStatus);
+ 
+  /* Hieronder wordt de status van de IR-sensoren van de baan in de database gestopt */
+  pool.query("INSERT INTO sensorStatus (status, tijd) VALUES ($1, CURRENT_TIMESTAMP, $2)", [newSensorStatus], (error, results) => {
+    if (error) {
+    throw error;
+  }
+  response.status(201).send("Knikker incoming!");
   });
 }
