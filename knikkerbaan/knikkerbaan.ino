@@ -8,9 +8,9 @@ const int ledPin = 13;
 int wachttijd = 500; //tijd in ms
 
 // infraroodsensoren
-const int sensorPin1 4
-const int sensorPin2 5
-const int sensorPin3 6
+const int sensorPin1 = 4;
+const int sensorPin2 = 5;
+const int sensorPin3 = 6;
 
 int sensorStatus_1 = LOW;      // de MEEST RECENTE waarde van de sensor1
 int sensorVorigeStatus_1 = LOW;      // de VORIGE waarde van de sensor1
@@ -29,12 +29,15 @@ void setup() {
   pinMode(ledPin, OUTPUT);
 
   // stel de sensorPin in als INPUT
+  // sensor1 is de sensor bij het begin
   pinMode(sensorPin1, INPUT);
   digitalWrite(sensorPin1, HIGH);
 
+  // sensor2 is de eerste sensor van de speedtrap
   pinMode(sensorPin2, INPUT);
   digitalWrite(sensorPin2, HIGH);
 
+  // sensor3 is de tweede sensor van de speedtrap
   pinMode(sensorPin3, INPUT);
   digitalWrite(sensorPin3, HIGH);
 }
@@ -59,7 +62,7 @@ void loop() {
   // als de straal onderbroken is: LEDje aan
   // anders uit
 
-  
+  //sensor 1
   if (sensorStatus_1  == LOW) {
     digitalWrite(ledPin, HIGH);  
   } 
@@ -71,10 +74,20 @@ void loop() {
     Serial.println("Er komt een knikker door bij het begin!");
   } 
   if (sensorStatus_1 == LOW && vorigeStatus_1 == HIGH) {
-    Serial.println("Er is geeen actie te zien bij het begin");
+    Serial.println("Er is geeen actie te zien bij het begin!");
   }
 
-  vorigeStatus = sensorStatus;
+  vorigeStatus_1 = sensorStatus_1;
+
+  //sensor 2
+  if (sensorStatus_2  == LOW) {
+    digitalWrite(ledPin, HIGH);  
+  }
+
+  //sensor 3
+  if (sensorStatus_2  == LOW) {
+    digitalWrite(ledPin, HIGH);  
+  }
 
   
 
