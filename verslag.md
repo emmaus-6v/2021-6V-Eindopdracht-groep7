@@ -10,17 +10,11 @@ Vervolgens vertellen zien hoe de technische kant van de knikkerbaan in zijn werk
 
 
 ## Idee
-<<<<<<< HEAD
 Ons idee was om een knikkerbaan te maken waarbij de knikkers verschillende paden kunnen volgen. Daarom splitst de baan al 
 in het begin op en in het midden weer. We kwamen ook op het idee een ronde 'trechter' te maken zoals je die in waterparken
 vaak ziet. Dat hebben we nagemaakt met de bovenkant van een fles. We wilden daarnaast ook elektronische apparaten integreren
 in ons project. We hebben gekozen voor 3 infraroodsensoren die kijken of er een knikker langskomt en 3 motortjes die openingen
 open of dicht kunnen maken.
-=======
-Ons idee was om een knikkerbaan te maken die 
-(gebruik gerust plaatjes)
-
->>>>>>> 27505df1b2ee3cbec8f75b5ccde3ec53ba84fa40
 
 
 ## Planning en daadwerkelijke uitvoering
