@@ -9,7 +9,7 @@ Lorem ipsum...
 
 
 ## Idee
-Ons idee was om een knikkerbaan te maken die...
+Ons idee was om een knikkerbaan te maken die 
 (gebruik gerust plaatjes)
 
 
