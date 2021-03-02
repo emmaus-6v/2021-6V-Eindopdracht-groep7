@@ -43,7 +43,7 @@ Ons communicatieprotocol werkt zo:
 
 ## Reflectie
 #### Anass
-Ik vond...
+Ik vond dat de communicatie in een groep een positief effect heeft gehad op ons eindproject van informatica. Door de groepsapp konden we gemakkelijk met elkaar onze taken verdelen en verder communiceren. Verder vond ik dat de planning redelijk goed ging, behalve af en toe wat stroefheden met het inplannen van het coderen en de toetsen tussendoor. Toch is het wel degelijk gelukt om er wat nuttigs van te maken en heeft iedereen een eerlijke bijdrage geleverd aan het project. 
 
 #### Bryan
 Ik kijk terug op...
