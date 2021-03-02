@@ -1,7 +1,5 @@
 var achtergrondPlaatje;
 var laatsteUpdateTimeStamp;
-var button;
-var numberOfButtonPresses = 0;
 
 /**
  * preload
@@ -51,15 +49,15 @@ function checkForDatabaseChanges() {
  * getTotalPresses
  * Vraagt het totaal aantal buttonPresses op
  */
-function getTotalPresses() {
+function getSensorStatus() {
   // zet het serverrequest in elkaar
   var request = new XMLHttpRequest()
-  request.open('GET', '/api/getTotalPresses', true)
+  request.open('GET', '/api/getSensorStatus', true)
   request.onload = function () {
     var data = JSON.parse(this.response);
     if (request.status >= 200 && request.status < 400) {
-      console.log(`Totaal aantal buttonPresses = ${data.totalbuttonpresses} `);
-      numberOfButtonPresses = data.totalbuttonpresses;
+      console.log(`Totaal aantal knikkers = ${data.sensorStatus} `);
+      numberOfButtonPresses = data.sensorStatus;
       var newTimeStamp = new Date(data.lasttimestamp).getTime()+1;
 
       // update indien nodig de timestamp
@@ -67,25 +65,6 @@ function getTotalPresses() {
         laatsteUpdateTimeStamp = newTimeStamp;
       }
       
-    }
-    else {
-        console.log("bleh, server reageert niet zoals gehoopt");
-        console.log(this.response);
-      }
-  }
-
-  // verstuur het request
-  request.send()
-}
-
-
-function buttonPressed() {
-  // zet het serverrequest in elkaar
-  var request = new XMLHttpRequest()
-  request.open('GET', '/api/addButtonPress', true)
-  request.onload = function () {
-    if (request.status >= 200 && request.status < 400) {
-      console.log('ButtonPress doorgegeven aan server');
     }
     else {
         console.log("bleh, server reageert niet zoals gehoopt");
@@ -107,11 +86,6 @@ function setup() {
   // Maak het canvas van je widget
   createCanvas(480, 200);
 
-  button = createButton('Klik op deze knop!');
-  button.position(120, 15);
-  button.mouseClicked(buttonPressed);
-
-
   // zet timeStamp op lang geleden zodat we alle recente info binnenkrijgen
   laatsteUpdateTimeStamp = new Date().setTime(0);
 
@@ -130,7 +104,7 @@ function draw() {
   // nu wordt slechts een voorbeeld als plaatje getoond
   // verwijder deze achtergrond en creëer je eigen widget
 
-  image(achtergrondPlaatje, 0, 0, 480, 200);
+  image(achtergrondPlaatje, 0, 0, 1920, 1080);
   fill(255, 255, 255);
-  text("Aantal keer geklikt:" + numberOfButtonPresses, 250, 30);
+  text("Door: Anass, Bryan, Wessel, Koen, Moos, Sem en Stan", 1920, 1000);
 }
