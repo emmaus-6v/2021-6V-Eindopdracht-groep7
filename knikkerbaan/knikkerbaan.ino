@@ -12,8 +12,12 @@ const int sensorPin1 4
 const int sensorPin2 5
 const int sensorPin3 6
 
-int sensor1Status = LOW;      // de MEEST RECENTE waarde van de sensor
-int sensor1VorigeStatus = LOW;      // de VORIGE waarde van de sensor
+int sensorStatus_1 = LOW;      // de MEEST RECENTE waarde van de sensor1
+int sensorVorigeStatus_1 = LOW;      // de VORIGE waarde van de sensor1
+int sensorStatus_2 = LOW;      // de MEEST RECENTE waarde van de sensor2
+int sensorVorigeStatus_2 = LOW;      // de VORIGE waarde van de sensor2
+int sensorStatus_3 = LOW;      // de MEEST RECENTE waarde van de sensor3
+int sensorVorigeStatus_3 = LOW;      // de VORIGE waarde van de sensor3
 
 
 // andere constanten
@@ -25,8 +29,14 @@ void setup() {
   pinMode(ledPin, OUTPUT);
 
   // stel de sensorPin in als INPUT
-  pinMode(sensorPin, INPUT);
-  digitalWrite(sensorPin, HIGH);
+  pinMode(sensorPin1, INPUT);
+  digitalWrite(sensorPin1, HIGH);
+
+  pinMode(sensorPin2, INPUT);
+  digitalWrite(sensorPin2, HIGH);
+
+  pinMode(sensorPin3, INPUT);
+  digitalWrite(sensorPin3, HIGH);
 }
 
 void loop() {
@@ -42,7 +52,33 @@ void loop() {
   long duration, cm;
   }
 
+   sensorStatus_1 = digitalRead(sensorPin1);
+   sensorStatus_2 = digitalRead(sensorPin2);
+   sensorStatus_3 = digitalRead(sensorPin3);
 
+  // als de straal onderbroken is: LEDje aan
+  // anders uit
+
+  
+  if (sensorStatus_1  == LOW) {
+    digitalWrite(ledPin, HIGH);  
+  } 
+  else {
+    digitalWrite(ledPin, LOW); 
+  }
+
+  if (sensorStatus_1 == HIGH && vorigeStatus_1 == LOW) {
+    Serial.println("Er komt een knikker door bij het begin!");
+  } 
+  if (sensorStatus_1 == LOW && vorigeStatus_1 == HIGH) {
+    Serial.println("Er is geeen actie te zien bij het begin");
+  }
+
+  vorigeStatus = sensorStatus;
+
+  
+
+/*
 // object te detecteren
   pinMode(pingPin, OUTPUT);
   digitalWrite(pingPin, LOW);
@@ -78,14 +114,12 @@ void loop() {
   delay(wachttijd);            // wachttijd
 }
 
-  delay(100); 
+  delay(100); */
 }
 
-
+/*
 long microsecondsToCentimeters(long microseconds) {
   // De geluidssnelheid is 340 m/s of 29 microsecondes per centimeter.
   // De ping gaat heen en weer, dus afstand delen door 2.
   return microseconds / 29 / 2;
-}
-  }
-}
+}*/
