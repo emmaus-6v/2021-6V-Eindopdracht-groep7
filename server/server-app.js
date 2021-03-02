@@ -25,7 +25,7 @@ app.get('/api/checkchanges/:widgetTimeStamp', checkChanges);
 app.get('/api/addButtonPress', addButtonPress);
 app.get('/api/getTotalPresses', getTotalPresses);
 app.get('/api/setKnikkerbaanStatus/:newStatus', setKnikkerbaanStatus);
-app.get('/api/irSensorStatus/newSensorStatus', irSensorStatus);
+app.get('/api/sensorStatus/newSensorStatus', sensorStatus);
 
 
 // start de server en geef een berichtje in de console dat het gelukt is!
@@ -151,7 +151,7 @@ function setKnikkerbaanStatus(_request, response) {
   });
 }
 
-function irSensorStatus(_request, response) {
+function sensorStatus(_request, response) {
   const newSensorStatus = parseInt(_request.params.newSensorStatus);
  
   /* Hieronder wordt de status van de IR-sensoren van de baan in de database gestopt */
