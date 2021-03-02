@@ -33,39 +33,14 @@ Uitgevoerd: Knikkerbaan herbouwd en extra ideeën uitgewerkt.
 
 ---
 
-Datum: 
-Leerling:
-Uitgevoerd:
+Datum: 02-03-2021
+Leerling: Wessel, Anass, Moos, Bryan?????
+Uitgevoerd: ....
 
 ---
 
-Datum:
+Datum: 02-03-
 Leerling:
 Uitgevoerd:
 
----
-
-Datum:
-Leerling:
-Uitgevoerd:
-
----
-
-Datum:
-Leerling:
-Uitgevoerd:
-
----
-
-Datum:
-Leerling:
-Uitgevoerd:
-
----
-
-Datum:
-Leerling:
-Uitgevoerd:
-
----
-etc...
+--
