@@ -49,6 +49,7 @@ Ik kijk terug op...
 #### Stan
 
 #### Sem
+In dit project hebben wij aan een knikkerbaan gewerkt. Er was veel samenwerking tussen alle personen. Ook hadden wij een persoon in ond groepje die in een andere klas zit. Dit zorgde ervoor dat het iets lastiger was om met die gene te communiceren, maar door middel van een groepsapp hebben wij veel en goed gecommuniceerd met elkaar en konden we dit zo oplossen. We hebben elkaar erg geholpen waar er moeilijkheden waren en hebben elkaars vragen beantwoord. Het was lastig om genoeg tijd te besteden aan het bouwen in het handvaardigheid lokaal. Doordat er niet heel veel momenten waren wanneer je in dit lokaal kon werken en niet iedereen op elk moment kon was dit lastig. We hebben dit alleen wel weten op te lossen doordat er ook andere mensen in het groepje een beetje aan de baan konden werken als iemand niet aanwezig kon zijn. Ik had zelf de taak om de knikkerbaan te bouwen. Samen met hulp van Bryan, Moos en Anass heb ik een aardige tijd in het handvaardigheid lokaal gespendeerd om de plankjes in de juiste formaten te zagen en ze goed te plaatsen. Achteraf bleek het nog niet helemaal goed te zijn en hebben Wessel en Bryan dit aangepast. De samenwerking tussen iedereen is eigenlijk erg goed verlopen door de groepsapp. Iedereen heeft goed zijn best gedaan en zijn eigen taak uitgevoerd.
 
 #### Koen
 
