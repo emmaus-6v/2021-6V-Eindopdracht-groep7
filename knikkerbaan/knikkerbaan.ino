@@ -7,6 +7,14 @@ const int pingPin = 7;
 const int ledPin = 13;
 int wachttijd = 500; //tijd in ms
 
+// infraroodsensoren
+const int sensorPin1 4
+const int sensorPin2 5
+const int sensorPin3 6
+
+int sensor1Status = LOW;      // de MEEST RECENTE waarde van de sensor
+int sensor1VorigeStatus = LOW;      // de VORIGE waarde van de sensor
+
 
 // andere constanten
 const long interval = 1000;           // interval in milliseconden
@@ -15,6 +23,10 @@ void setup() {
   Serial.begin(9600);
   // stel ledpin in als output:
   pinMode(ledPin, OUTPUT);
+
+  // stel de sensorPin in als INPUT
+  pinMode(sensorPin, INPUT);
+  digitalWrite(sensorPin, HIGH);
 }
 
 void loop() {
@@ -39,7 +51,6 @@ void loop() {
   delayMicroseconds(5);
   digitalWrite(pingPin, LOW);
 
- 
   pinMode(pingPin, INPUT);
   duration = pulseIn(pingPin, HIGH);
 
