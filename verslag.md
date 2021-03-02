@@ -1,17 +1,26 @@
 # Verslag eindopdracht 6V
-### gemaakt door --leerling1--, --leerling2--, etc
+### gemaakt door Anass, Bryan, Moos, Wessel, Stan, Sem, Koen
 
 ---
 
 ## Inleiding
-Lorem ipsum...
-
+Hieronder willen we uitleggen hoe we dit project hebben aangepakt. Eerst leggen we uit met welke ideeën we zijn gekomen in de
+eerste paar lessen en hoe we dat in de praktijk hebben gemaakt. Daarna geven we de uitvoering in de vorm van sprints. 
+Vervolgens vertellen zien hoe de technische kant van de knikkerbaan in zijn werk gaat. Als laatste doen we per persoon de reflectie.
 
 
 ## Idee
+<<<<<<< HEAD
+Ons idee was om een knikkerbaan te maken waarbij de knikkers verschillende paden kunnen volgen. Daarom splitst de baan al 
+in het begin op en in het midden weer. We kwamen ook op het idee een ronde 'trechter' te maken zoals je die in waterparken
+vaak ziet. Dat hebben we nagemaakt met de bovenkant van een fles. We wilden daarnaast ook elektronische apparaten integreren
+in ons project. We hebben gekozen voor 3 infraroodsensoren die kijken of er een knikker langskomt en 3 motortjes die openingen
+open of dicht kunnen maken.
+=======
 Ons idee was om een knikkerbaan te maken die 
 (gebruik gerust plaatjes)
 
+>>>>>>> 27505df1b2ee3cbec8f75b5ccde3ec53ba84fa40
 
 
 ## Planning en daadwerkelijke uitvoering
@@ -33,12 +42,21 @@ Ons communicatieprotocol werkt zo:
 
 
 ## Reflectie
-#### --leerling1--
+#### Anass
 Ik vond...
 
-#### --leerling2--
+#### Bryan
 Ik kijk terug op...
 
+#### Moos
+
+#### Wessel
+
+#### Stan
+
+#### Sem
+
+#### Koen
 
 
 ## Slot
