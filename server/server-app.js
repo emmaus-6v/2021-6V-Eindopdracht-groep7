@@ -143,6 +143,7 @@ function getTotalPresses(_request, response){
  */
 function setKnikkerbaanStatus(_request, response) {
   const newStatus = parseInt(_request.params.newStatus);
+  comment = "Gaat prima"
   pool.query("INSERT INTO baanStatus (status, tijd, opmerking) VALUES ($1, CURRENT_TIMESTAMP, $2)", [newStatus, comment], (error, results) => {
     if (error) {
       throw error;
@@ -151,6 +152,14 @@ function setKnikkerbaanStatus(_request, response) {
   });
 }
 
+
+/**
+ * SensorStatus
+ * 
+ * verandert de status in de waarde zoals meegegeven in het request
+ * @param _request het webrequest dat deze bewerking startte
+ * @param response het antwoord dat teruggegeven gaat worden.
+ */
 function sensorStatus(_request, response) {
   const newSensorStatus = parseInt(_request.params.newSensorStatus);
  
