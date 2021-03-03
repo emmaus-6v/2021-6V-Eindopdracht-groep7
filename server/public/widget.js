@@ -9,7 +9,7 @@ var laatsteUpdateTimeStamp;
  * door de browser die je widget opent
  */
 function preload() {
-  achtergrondPlaatje = loadImage('widgetFoto/snelheid-lichten-achtergrond-concept_23-2148661857.jpg');
+  achtergrondPlaatje = loadImage(['widgetFoto/snelheid-lichten-achtergrond-concept_23-2148661857.jpg']);
 }
 
 
