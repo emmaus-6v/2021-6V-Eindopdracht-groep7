@@ -15,6 +15,30 @@ Uitgevoerd: aan code begonnen en commits uitgeprobeerd
 
 ---
 
+Datum: 14-11-2020
+Leerling: Anass
+Uitgevoerd: In het weekend georiênteerd over arduino, uitleg filmpjes bekeken over code
+
+---
+
+Datum: 15-11-2020
+Leerling: Anass
+Uitgevoerd: uitleg filmpjes bekeken over code
+
+---
+
+Datum: 18-11-2020
+Leerling: Anass
+Uitgevoerd: Tijdens les informatica begonnen aan globale blauwdruk/idee van de codecomponenten van arduino
+
+---
+
+Datum: 2-12-2020
+Leerling: Anass
+Uitgevoerd: Gestart aan het coderen van een lampje, eerste variabelen gedeclareerd, ook verder gegaan met coderen en het bekijken van filmpjes gedurende de vakantie
+
+---
+
 Datum: 10-02-2021
 Leerling: Koen en Stan
 Uitgevoerd: rails voor baan ontvangen en metalen houdertjes voor rails gemaakt.
@@ -30,6 +54,13 @@ Uitgevoerd: knikkerbaan gemaakt.
 Datum: 18-02-2021
 Leerling: Wessel en Stan
 Uitgevoerd: gekeken naar hoe de knikkerbaan ervoor stond.
+
+---
+
+
+Datum: 20-02-2021
+Leerling: Anass
+Uitgevoerd: Verder gecodeerd aan arduino en in tinkercad een schema gemaakt om de code nogeens te testen
 
 ---
 
@@ -58,8 +89,16 @@ Uitgevoerd: begonnen aan verslag en widget getest met andere foto dan 'voorbeeld
 ---
 
 Datum: 02-03-2021
+Leerling: Wessel en Anass
+Uitgevoerd: Elkaars arduino codes nogeens bekeken en gecombineerd tot 1 bestand, gediscussierd over de overbodige stukken code om die stukken weg te laten
+
+---
+
+Datum: 02-03-2021
 Leerling: Wessel, Bryan
 Uitgevoerd: de onderdelen van knikkerbaan vastgemaakt.
+
+
 
 <<<<<<< HEAD
 ---
