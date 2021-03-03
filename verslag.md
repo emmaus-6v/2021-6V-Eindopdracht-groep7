@@ -18,7 +18,7 @@ open of dicht kunnen maken.
 
 
 ## Planning en daadwerkelijke uitvoering
-Onze opdracht is als volgt gepland:
+Onze opdracht is als volgt gepland: 
 
 ### sprint 3
 
@@ -32,6 +32,11 @@ Onze opdracht is als volgt gepland:
 
 ## Technische verantwoording
 Ons communicatieprotocol werkt zo:
+- De knikker komt van boven en een motortje beweegt een houten plank met een random tick wat bepaalt of het balletje naar links of naar rechts gaat.
+- Vervolgens valt het balletje naar een van de zijkanten waar weer een motortje een houten plankje draait met een random tick. Gaat de knikker naar binnen, dan komt het bij de trechter en valt het door het gat.
+- Gaat de knikker links (vanaf het vooraanzicht), dan gaat deze via een slalom naar beneden. 
+- Gaat de knikker naar rechts (vanaf het vooraanzicht), dan komt de knikker in een vrije val waar zijn gemiddelde snelheid wordt gemeten tussen twee infrarood sensoren.
+- Vanaf de buitenkant komen de knikker weer naar het midden.
 
 
 
@@ -45,6 +50,7 @@ Het traject die we hebben afgelegd om de deadline te halen, verliep redelijk. We
 #### Moos
 
 #### Wessel
+Ik ben zelf niet tevreden met het eindresultaat. Door verschillende omstandigheden is het niet goed gegaan en is het eindresultaat zeker niet goed. We hadden een leuk idee, maar de uitvoering was er niet of nauwelijk. Het lukte niet iedereen om zijn taak (soms moedwillig) uit te voeren waardoor de verhoudingen in wie wat deed scheef liepen, zonde. Iets om van te leren...
 
 #### Stan
 
@@ -55,3 +61,4 @@ In dit project hebben wij aan een knikkerbaan gewerkt. Er was veel samenwerking 
 
 
 ## Slot
+Het is helaas niet geworden wat we gehoopt hadden toen we hier aan begonnen. Het idee was er, de uitvoering wat minder.

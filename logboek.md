@@ -39,8 +39,8 @@ Uitgevoerd: De onderdelen van knikkerbaan vastgemaakt.
 
 ---
 
-Datum: 02-03-
-Leerling:
-Uitgevoerd:
+Datum: 03-03-
+Leerling: Koen, Wessel
+Uitgevoerd: nog even 30min aan de baan verbeterd. Daarna presenteren.
 
 --
