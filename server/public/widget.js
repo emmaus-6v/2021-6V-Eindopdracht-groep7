@@ -1,5 +1,7 @@
 var achtergrondPlaatje;
 var laatsteUpdateTimeStamp;
+var button;
+var _snelheid = 0 ;
 
 /**
  * preload
@@ -56,8 +58,8 @@ function getSensorStatus() {
   request.onload = function () {
     var data = JSON.parse(this.response);
     if (request.status >= 200 && request.status < 400) {
-      console.log(`Totaal aantal knikkers = ${data.sensorStatus} `);
-      numberOfButtonPresses = data.sensorStatus;
+      console.log(`_snelheden = ${data._snelheden} `);
+      _snelheden = _snelheden;
       var newTimeStamp = new Date(data.lasttimestamp).getTime()+1;
 
       // update indien nodig de timestamp
@@ -82,14 +84,15 @@ function getSensorStatus() {
  * de code in deze functie wordt eenmaal uitgevoerd,
  * als p5js wordt gestart
  */
-function setup() {
-  // Maak het canvas van je widget
-  createCanvas(1920, 1080);
+function numberOfButtonPresses() {
+  // zet serverrequest in elkaar
+  createCanvas(1300, 700);
+
   // zet timeStamp op lang geleden zodat we alle recente info binnenkrijgen
   laatsteUpdateTimeStamp = new Date().setTime(0);
 
   // we vragen elke seconde (aan de server!) of er iets is veranderd 
-  setInterval(checkForDatabaseChanges, 1500);
+  setInterval(checkForDatabaseChanges, 1000);
 }
 
 
