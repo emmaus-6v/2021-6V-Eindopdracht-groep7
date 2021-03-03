@@ -63,6 +63,11 @@ Uitgevoerd: de onderdelen van knikkerbaan vastgemaakt.
 
 ---
 
+<<<<<<< HEAD
+Datum: 03-03-
+Leerling: Koen, Wessel
+Uitgevoerd: nog even 30min aan de baan verbeterd. Daarna presenteren.
+=======
 Datum: 03-03-2021
 Leerling: Koen en Wessel
 Uitgevoerd: Knikkerbaan afgemaakt en gedemonsteerd
@@ -72,6 +77,7 @@ Uitgevoerd: Knikkerbaan afgemaakt en gedemonsteerd
 Datum:
 Leerling:
 Uitgevoerd:
+>>>>>>> 6303dd0ec5e919b1d6925bf67b5e497e48dac21e
 
 ---
 

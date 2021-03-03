@@ -52,6 +52,10 @@ const int pingPin = 7;
 const int ledPin = 13;
 int wachttijd = 500; //tijd in ms
 
+int afstand = 0,09; // afstand tussen sensoren is 9cm
+int snelheid;
+int laaste_snelheid;
+
 
 void setup() {
   // ##################################################
@@ -194,12 +198,14 @@ void loop() {
 
   //sensor 2
   if (sensorStatus_2  == LOW) {
-    digitalWrite(ledPin, HIGH);  
+    speedtrap_1_tijd = millis(); 
   }
 
-  //sensor 3
-  if (sensorStatus_2  == LOW) {
-    digitalWrite(ledPin, HIGH);  
+  // sensor 3
+  }if (sensorStatus_3 == LOW) {
+    speedtrap_2_tijd = millis();
+
+    berekensnelheid();
   }
 
   
@@ -250,7 +256,14 @@ long microsecondsToCentimeters(long microseconds) {
   return microseconds / 29 / 2;
 }*/
 
+void berekensnelheid() {
+  snelheid = afstand / (speedtrap_2_tijd - speedtrap_1_tijd);
 
+  laaste_snelheid = snelheid;
+  snelheid = 0
+  Serialprintln(laaste_snelheid);
+  Serialprintln("m/s")
+}
 
 // ###############################################
 // ############## WIFI preset functies ###########
@@ -387,3 +400,6 @@ void setWiFiLED(uint8_t rood, uint8_t groen, uint8_t blauw) {
   WiFiDrv::analogWrite(26, groen);
   WiFiDrv::analogWrite(27, blauw);
 }
+
+
+// sorry meneer voor dit slechte stuk, ik ben er zelf ook niet trots op. Maar het zij zo...
