@@ -9,7 +9,7 @@ var laatsteUpdateTimeStamp;
  * door de browser die je widget opent
  */
 function preload() {
-  achtergrondPlaatje = loadImage(['widgetFoto/snelheid-lichten-achtergrond-concept_23-2148661857.jpg']);
+  achtergrondPlaatje = loadImage(['images/voorbeeld.jpg']);
 }
 
 
@@ -103,15 +103,15 @@ function draw() {
   // nu wordt slechts een voorbeeld als plaatje getoond
   // verwijder deze achtergrond en creëer je eigen widget
 
-  image(achtergrondPlaatje, 0, 0, 1300, 700);
+  image(achtergrondPlaatje, 0, 0, 1920, 1080);
   fill(255, 255, 0);
   text("Door: Anass, Bryan, Wessel, Koen, Moos, Sem en Stan", 1200, 700);
 
-  rect(600, 0, 1300, 700);
+  rect(600, 0, 1920, 1080);
   fill(255, 0, 0);
 
-  textSize(50);
-  text('KNIKKERBAAN GROEPJE 7', 650, 25);
+  textSize(25);
+  text('KNIKKERBAAN GROEPJE 7', 960, 25);
   fill(0, 0, 0);
 
 }
