@@ -16,7 +16,7 @@ Uitgevoerd: Rails voor baan ontvangen en metalen houdertjes voor rails gemaakt.
 ---
 
 Datum: 17-02-2021
-Leerling: Sem, Bryan en Moos
+Leerling: Sem, Bryan, Anass en Moos
 Uitgevoerd: Knikkerbaan gemaakt.
 
 ---
@@ -34,8 +34,8 @@ Uitgevoerd: Knikkerbaan herbouwd en extra ideeën uitgewerkt.
 ---
 
 Datum: 02-03-2021
-Leerling: Wessel, Anass, Moos, Bryan?????
-Uitgevoerd: ....
+Leerling: Wessel, Bryan
+Uitgevoerd: De onderdelen van knikkerbaan vastgemaakt.
 
 ---
 
