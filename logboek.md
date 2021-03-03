@@ -38,9 +38,3 @@ Leerling: Wessel, Bryan
 Uitgevoerd: De onderdelen van knikkerbaan vastgemaakt.
 
 ---
-
-Datum: 02-03-
-Leerling:
-Uitgevoerd:
-
---
